@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.jfgdeveloper.udemycomponentes.box.MyBox
 import com.jfgdeveloper.udemycomponentes.colum.MyColums
+import com.jfgdeveloper.udemycomponentes.comobinado.Combinado
 import com.jfgdeveloper.udemycomponentes.row.MyRows
 import com.jfgdeveloper.udemycomponentes.ui.theme.UdemyComponentesTheme
 
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                    // MyBox()
                     //MyColums()
-                    MyRows()
+                    //MyRows()
+                    Combinado()
                 }
             }
         }

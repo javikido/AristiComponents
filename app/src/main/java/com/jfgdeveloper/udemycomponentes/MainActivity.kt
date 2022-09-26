@@ -25,12 +25,17 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize(),
                         color = MaterialTheme.colors.background
                 ) {
-                   // MyBox()
+                   SaludoEJM()
                     //MyColums()
-                    MyRows()
+                    //MyRows()
                 }
             }
         }
     }
+}
+
+@Composable
+fun SaludoEJM() {
+    Text(text = "hola javi")
 }
 

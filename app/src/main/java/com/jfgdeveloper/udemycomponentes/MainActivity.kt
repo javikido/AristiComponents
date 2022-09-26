@@ -27,7 +27,10 @@ class MainActivity : ComponentActivity() {
                 ) {
                    SaludoEJM()
                     //MyColums()
-                    //MyRows()
+                    //MyRows() esto es un fallo provocado
+                    // con varias lineas en box
+                    // para comprobar el merge con fallo
+                    // echo en box
                 }
             }
         }

@@ -29,8 +29,8 @@ class MainActivity : ComponentActivity() {
 
                     //MyColums()
                     //MyRows()
-                    Combinado()
-
+                    //Combinado()
+                    Estados()
 
                 }
             }
